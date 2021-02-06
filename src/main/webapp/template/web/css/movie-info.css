@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.movie-info {
+    background-image: url(/template/web/img/backgr.PNG);
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+}
+
+.movie-detail {
+    float: right !important;
+}
+
+.movie-info .movie-title {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-size: initial;
+}
+
+.movie-info .movie-title .title-1 {
+    text-transform: uppercase;
+    font: 26px 'UTMCafetaRegular';
+    color: #dacb46;
+    display: block;
+}
+
+.movie-info .movie-title .title-2 {
+    color: #999;
+    font-size: 12px;
+}
+
+.movie-title .title-year {
+    font-size: 12px;
+    color: #999;
+}
+
+.movie-info .movie-meta-info {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 5px 8px;
+    line-height: 26px;
+    border: 1px solid #121212;
+    font-size: 12px;
+    color: #bbb;
+    background: #222;
+    max-height: 276px;
+    overflow: auto;
+}
+
+.movie-info .movie-dl {
+    margin: 0px;
+}
+
+.movie-info .movie-dt, .movie-info .movie-dd {
+    display: inline;
+}
+
+.movie-info .movie-meta-info .status {
+    color: red;
+}
+
+.clear {
+    clear: both;
+}
+
+.box-rating {
+    position: relative;
+}
+
+.box-rating p {
+    font-size: 20px;
+    color: #dacb46;
+}
+
+.block-movie-info .movie-l-img {
+    position: relative;
+}
+
+.movie-info .movie-l-img img {
+    width: 100%;
+    min-height: 400px;
+}
+
+.movie-info .block-movie-info .btn-block {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.movie-info .block-movie-info .btn-block .item {
+    display: inline-block;
+    padding: 4px;
+}
+
+.block-movie-content, .block-actors {
+    margin-top: 10px !important;
+    border: 1px solid #121212;
+    background: #222;
+    padding: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.movie-detail-h2, .movie-detail-h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #dacb46;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#film-content-wrapper > #film-content {
+    /* max-height: 800px; */
+    overflow: hidden;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.block-movie-content .content {
+    color: #bbb;
+    font-size: 13px;
+    font-family: arial;
+    line-height: 24px;
+}
+
+.block-movie-content .content p {
+    padding: 3px 0px;
+}
+
+.comments{
+    margin-top: 10px !important;
+    border: 1px solid #121212;
+    background: #222;
+    padding: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: relative;
+}

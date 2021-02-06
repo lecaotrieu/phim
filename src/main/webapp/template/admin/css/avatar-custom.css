@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img#avatarUser {
+    border: 4px solid #3cff4b;
+    height: 441px;
+    min-width: 400px;
+}

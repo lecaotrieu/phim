@@ -1,0 +1,44 @@
+package com.movie.core.constant;
+
+public class WebConstant {
+    public static final String LOGIN = "login";
+    public static final String REGISTER = "register";
+    public static final String REGISTER_ERROR = "register_error";
+    public static final String REGISTER_SUCCESS = "register_success";
+    public static final String CONFIRM_PASSWORD_FAIL = "confirm_password_fail";
+    public static final String LOGOUT = "logout";
+    public static final String LOGIN_USER = "login_user";
+    public static final String LOGIN_NAME = "login_name";
+    public static final String LOGIN_ERROR = "login_error";
+    public static final String PASSWORD = "password";
+    public static final String ROLE_ADMIN = "ADMIN";
+    public static final String ROLE_MANAGER = "MANAGER";
+    public static final String ROLE_POSTER = "POSTER";
+    public static final String ROLE_USER = "USER";
+    public static final String FORM_ITEM = "item";
+    public static final String LIST_ITEM = "items";
+    public static final String MESSAGE_RESPONSE = "messageResponse";
+    public static final String ALERT = "alert";
+    public static final String TYPE_ERROR = "danger";
+    public static final String TYPE_SUCCESS = "success";
+    public static final String INSERT_UPDATE = "insert_update";
+    public static final String REDIRECT_INSERT = "redirect_insert";
+    public static final String REDIRECT_UPDATE = "redirect_update";
+    public static final String REDIRECT_DELETE = "redirect_delete";
+    public static final String REDIRECT_ERROR = "redirect_error";
+    public static final String LOGIN_INCOMPETENT = "login_incompetent";
+    public static final String NOT_LOGGED = "not_logged";
+    public static final String FILM_NOMINATE = "film_nominate";
+    public static final String FILM_CHIEU_RAP = "film_chieu_rap";
+    public static final String FILM_FOLLOWED= "film_followed";
+    public static final String MOVIE_THEATERS = "movie_theaters";
+    public static final String FILM_NEW_UPDATE = "film_new_update";
+    public static final String ODD_FILM_NEW_UPDATE = "odd_film_new_update";
+    public static final String NEW_FILM_HAVE_TRAILER = "new_film_have_trailer";
+    public static final String FILM_SERIES = "film_series";
+    public static final String CATEGORY_LIST ="category_list" ;
+    public static final String FILM_TYPE_LIST ="film_type_list" ;
+    public static final String COUNTRY_LIST = "country_list";
+    public static final String YEARS = "years";
+    public static final String SERIES_FILM_HOT = "series_film_hot";
+}

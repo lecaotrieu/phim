@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card.shadow-lg.border-0.rounded-lg.mt-5 {
+    background: #015575d6;
+    color: #fff;
+}
+
+.card-header {
+    background: #019621;
+    color: #fff;
+}
+
+body {
+    background-image: url(/template/image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

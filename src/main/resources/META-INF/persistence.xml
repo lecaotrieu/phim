@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistence-data">
+        <class>com.movie.core.entity.EvaluateEntity</class>
+        <class>com.movie.core.entity.CountryEntity</class>
+        <class>com.movie.core.entity.FilmEntity</class>
+        <class>com.movie.core.entity.DirectorEntity</class>
+        <class>com.movie.core.entity.EmployeeEntity</class>
+        <class>com.movie.core.entity.FilmTypeEntity</class>
+        <class>com.movie.core.entity.CommentEntity</class>
+        <class>com.movie.core.entity.UserEntity</class>
+        <class>com.movie.core.entity.CityEntity</class>
+        <class>com.movie.core.entity.DistrictEntity</class>
+        <class>com.movie.core.entity.CommuneEntity</class>
+        <class>com.movie.core.entity.ActorEntity</class>
+        <class>com.movie.core.entity.AdsEntity</class>
+        <class>com.movie.core.entity.CategoryEntity</class>
+        <class>com.movie.core.entity.RoleEntity</class>
+        <class>com.movie.core.entity.CommentLikeEntity</class>
+        <class>com.movie.core.entity.EpisodeEntity</class>
+    </persistence-unit>
+</persistence>

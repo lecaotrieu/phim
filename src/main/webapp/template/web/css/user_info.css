@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#formChangePass label {
+    color: #fff;
+}
+
+.user-st .avatar {height: 400px;width: 300px;border: none;margin-top: 40px;}
+
+.content-header {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+    font-weight: bold;
+}
+
+.user-st {
+    background: #1f1f1f;
+    width: 100%;
+    height: 700px;
+    margin-top: 36px;
+    border-radius: 8px;
+}
+
+.menu {
+    background: #1f1f1f;
+    height: 700px;
+    border-radius: 6px;
+}
+
+
+.menu-header {
+    width: 100%;
+    color: #fff;
+}
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #eceeef;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.vertical-menu a:hover {
+    background-color: #383535;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
